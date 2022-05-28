@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.part{
+    padding: 0 300px;
+}
+
+.one,
+.two,
+.three,
+.four{
+    flex: 1
+}
+
+.one,
+.five{
+    background-color: #1F2937;
+    color: white;
+}
+
+.two,
+.four{
+    background-color: white;
+}
+
+.two{
+    text-align: center;
+}
+
+.five{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-left: 400px;
+}
+
+.header{
+    display: flex;
+    gap: 36px;
+    margin-top: 8px;
+}
+
+.header div{
+    margin-right: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 0;
+    gap: 48px;
+}
+
+.description img{
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description div{
+    flex: 1;
+}
+
+h1{
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+
+}
+
+.blue-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 72px;
+    margin: 36px 0;
+    color: white;
+}
+
+#cta{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ph{
+    height: 180px;
+    width: 180px;
+    border: blue solid 2px;
+    border-radius: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin: 36px 0;
+}
+
+.images div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+button{
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+    padding: 4px 16px;
+    background-color: #3882F6;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.blue-container button{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.quote{
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+}
